@@ -1,9 +1,8 @@
    int truePositives = c_TruePosi;
-       int falsePositives = c_FalsePos;
-       int trueNegatives = c_TrueNega;
-       int falseNegatives = c_FalseNeg;
-
-       int total = truePositives + falsePositives + trueNegatives + falseNegatives; 
+   int falsePositives = c_FalsePos;
+   int trueNegatives = c_TrueNega;
+   int falseNegatives = c_FalseNeg;
+   int total = truePositives + falsePositives + trueNegatives + falseNegatives; 
 
 
 double accuracy = ((double)truePositives + trueNegatives) /total;
